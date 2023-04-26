@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+    padding: 10%;
+    font-family: sans-serif;
+
+}
+form{
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #807863;
+}

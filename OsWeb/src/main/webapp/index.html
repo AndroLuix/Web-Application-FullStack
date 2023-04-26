@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>Query su tabella</h2>
+	<form action="OsServlet">
+	<label for="selectAll">Estrai tutti gli OS</label>
+	<input type="submit" id="selectAll" name="selectAll" value="Esegui"> <br><br>
+	</form>
+
+	
+	<form action="OsServlet">
+		<label for="selectOsById">Estrai OS per indice</label>
+	<input type="number" id="selectOsById" name="selectOsById" placeholder="Inserisci id" >
+	<input type="submit" value="esegui">
+	</form>
+
+	<form action="OsServlet">
+		<label for="selectOsByCompany">Estrai OS per Compagnia</label>
+	<input type="text" id="selectOsByCompany" name="selectOsByCompany" placeholder="Inserisci compagnia" >
+	<input type="submit" value="esegui">
+	</form>
+
+
+
+</body>
+</html>
